@@ -1,0 +1,26 @@
+{
+  "name": "bashotori-server",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@line/bot-sdk": "^5.2.0",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.17.1",
+    "compression": "^1.6.2",
+    "cors": "^2.8.3",
+    "debug": "^3.1.0",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.2",
+    "express-session": "^1.15.6",
+    "lossless-json": "^1.0.1",
+    "memory-cache": "^0.2.0",
+    "pug": "^2.0.0-rc.1",
+    "redis": "^2.8.0",
+    "request": "^2.83.0",
+    "tunnel": "^0.0.5",
+    "url": "^0.11.0",
+    "uuid": "^3.1.0"
+  }
+}

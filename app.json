@@ -1,0 +1,9 @@
+{
+    "name": "Basho-tori",
+    "description": "Basho-tori",
+    "logo": "",
+    "keywords": [
+        "node"
+    ],
+    "image": "heroku/nodejs"
+}

@@ -1,0 +1,104 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "line-pay@1.0.11",
+        "scope": null,
+        "escapedName": "line-pay",
+        "name": "line-pay",
+        "rawSpec": "1.0.11",
+        "spec": "1.0.11",
+        "type": "version"
+      },
+      "E:\\dev\\workspace\\onejapan\\bashotori"
+    ]
+  ],
+  "_from": "line-pay@1.0.11",
+  "_id": "line-pay@1.0.11",
+  "_inCache": true,
+  "_location": "/line-pay",
+  "_nodeVersion": "8.9.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/line-pay-1.0.11.tgz_1516500579681_0.7431544424034655"
+  },
+  "_npmUser": {
+    "name": "nkjm",
+    "email": "nkjm.kzk@gmail.com"
+  },
+  "_npmVersion": "5.6.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "line-pay@1.0.11",
+    "scope": null,
+    "escapedName": "line-pay",
+    "name": "line-pay",
+    "rawSpec": "1.0.11",
+    "spec": "1.0.11",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/line-pay/-/line-pay-1.0.11.tgz",
+  "_shasum": "85890059bf148bea57687409edcee97da6b7fa82",
+  "_shrinkwrap": null,
+  "_spec": "line-pay@1.0.11",
+  "_where": "E:\\dev\\workspace\\onejapan\\bashotori",
+  "author": {
+    "name": "Kazuki Nakajima"
+  },
+  "bugs": {
+    "url": "https://github.com/nkjm/line-pay/issues"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "debug": "^3.1.0",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "lossless-json": "^1.0.1",
+    "memory-cache": "^0.2.0",
+    "request": "^2.83.0"
+  },
+  "description": "SDK to use LINE Pay API in node.js app",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^4.0.1",
+    "uuid": "^3.1.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-d7eNae4xlixtDyRNUYRU8PO4CZZ5vtgR0FeIZWmxFxjbTxJP3lHS3Uf82GQVKgOFZWsOML6jDOEyASnNc2Ty9Q==",
+    "shasum": "85890059bf148bea57687409edcee97da6b7fa82",
+    "tarball": "https://registry.npmjs.org/line-pay/-/line-pay-1.0.11.tgz"
+  },
+  "gitHead": "ca830e36f57e65344ff30f42d982ba73033adda3",
+  "homepage": "https://github.com/nkjm/line-pay#readme",
+  "keywords": [
+    "payment",
+    "pay",
+    "line"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "nkjm",
+      "email": "nkjm.kzk@gmail.com"
+    }
+  ],
+  "name": "line-pay",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nkjm/line-pay.git"
+  },
+  "scripts": {
+    "start": "node sample-server.js",
+    "test": "mocha"
+  },
+  "version": "1.0.11"
+}
